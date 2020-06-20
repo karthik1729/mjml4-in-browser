@@ -5,5 +5,12 @@ export default {
         } else {
             console.log('readFileSync - unknown file name "' + filename + '"');
         }
+    },
+    lstatSync: (filePath) => {
+        return {
+            isDirectory: () => {
+                return false;
+            }
+        }
     }
 };
