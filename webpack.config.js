@@ -37,6 +37,7 @@ module.exports = {
             'mjml-core/lib': path.resolve(__dirname, './mjml/packages/mjml-core/src'),
             'mjml-accordion': path.resolve(__dirname, './mjml/packages/mjml-accordion/src'),
             'mjml-body': path.resolve(__dirname, './mjml/packages/mjml-body/src'),
+            'mjml-badge': path.resolve(__dirname, './mjml/packages/mjml-badge/src'),
             'mjml-button': path.resolve(__dirname, './mjml/packages/mjml-button/src'),
             'mjml-carousel': path.resolve(__dirname, './mjml/packages/mjml-carousel/src'),
             'mjml-cli': path.resolve(__dirname, './mjml/packages/mjml-cli/src'),
